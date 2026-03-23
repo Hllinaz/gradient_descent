@@ -22,7 +22,7 @@ def Sidebar():
             step=1,
         )
         
-        st.write("Inicial Point")
+        st.write("Initial Point")
         
         xcolummns, ycolumns = st.columns(2)
         
