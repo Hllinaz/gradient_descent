@@ -5,7 +5,7 @@ One of the simplest first-order optimization techniques is the **gradient descen
 Given a step size $\alpha$, at each iteration $n$ of the gradient descent process, the parameter vector is progressively adjusted in the direction opposite to the gradient evaluated at the current parameter values $(n = 0, 1, 2, \ldots)$:
   
 $$
-  \mathbf{v}_{n+1} = \mathbf{v}_{n} + \alpha \nabla\f\left(\mathbf{v}_{n}\right), \ \forall n \in \mathbb{N}_0.
+  \mathbf{v}_{n+1} = \mathbf{v}_{n} + \alpha \nabla f \left(\mathbf{v}_{n}\right), \ \forall n \in \mathbb{N}_0.
 $$
   
 where $\mathbf{v}_0$ denotes the initial parameter vector. The scalar $\alpha$ represents the learning rate, a positive constant that controls the magnitude of each update step.
